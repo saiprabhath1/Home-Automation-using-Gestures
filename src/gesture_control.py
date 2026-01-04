@@ -4,7 +4,7 @@ from pywizlight import wizlight, PilotBuilder
 import asyncio
 import logging
 
-BULB_IP = "192.168.0.164" //replace with your bulb ip
+BULB_IP = "192.168.0.164" #replace with your bulb ip
 bulb = wizlight("192.168.0.164")
 
 mp_hands = mp.solutions.hands
